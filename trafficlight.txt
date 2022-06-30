@@ -1,0 +1,50 @@
+void setup()
+{
+  pinMode(4, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(2, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(4, HIGH); // For green LED
+  
+  delay(5000); // Wait for 3 second
+  digitalWrite(4, LOW);
+  delay(1000);
+digitalWrite(4, HIGH);delay(1000);
+  
+  digitalWrite(4, LOW);delay(1000);
+    
+  
+  digitalWrite(4, HIGH);delay(1000);
+  
+ digitalWrite(4, LOW);delay(1000);
+ 
+  
+  digitalWrite(3, HIGH); // For orange LED
+  delay(2000);  // Wait for 1 second
+  digitalWrite(3, LOW);delay(1000);
+  digitalWrite(3, HIGH);delay(1000);
+  digitalWrite(3, LOW);delay(1000);
+  digitalWrite(3, HIGH);delay(1000);
+ digitalWrite(3, LOW);delay(1000);
+  
+  
+  digitalWrite(2, HIGH);  // For the red LED
+  delay(5000); // Wait for 3 second
+  digitalWrite(2, LOW); delay(1000);
+  digitalWrite(2, HIGH);delay(1000);
+  digitalWrite(2, LOW);delay(1000);
+  digitalWrite(2, HIGH);delay(1000);
+ digitalWrite(2, LOW);delay(1000);
+
+   
+  digitalWrite(3, HIGH); // For orange LED
+  delay(2000);  // Wait for 1 second
+  digitalWrite(3, LOW);delay(1000);
+  digitalWrite(3, HIGH);delay(1000);
+  digitalWrite(3, LOW);delay(1000);
+  digitalWrite(3, HIGH);delay(1000);
+ digitalWrite(3, LOW);delay(1000);
+}
